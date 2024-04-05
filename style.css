@@ -6,6 +6,13 @@
     ;   
 }
 
+p{
+    color:white;
+}
+
+h1{
+    color: white;
+}
 
 footer{
     width: 100%;
@@ -19,6 +26,74 @@ footer{
 #foot{
     color: white;
     margin: 0%;
-    margin-top: 100px;
+    margin-top: 85%;
 }
 
+#navigation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "a a a";
+    position: sticky;
+    top:10px;
+}
+#navigation a{
+    text-align:center;
+    font-family: 'Amatic SC', sans-serif;
+    place-items: center;
+    font-size: 40px;
+    color: white;
+    transition: all 1s ease-out;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    outline: 0;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: #13273c;
+
+
+}
+
+#navigation a:hover, a:focus {
+    color: #13273c;
+    background-color:  #d03c3c  ;
+}
+article{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "art1"
+    "art2"
+    "art3"
+    ;
+}
+
+#art1{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titre article image";
+}
+
+#art2{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "image article titre";
+   
+}
+
+#art3{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-areas:   
+    "titre article image";
+}
