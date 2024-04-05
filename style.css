@@ -13,6 +13,9 @@ p{
 h1{
     color: white;
 }
+h2{
+    color: white;
+}
 
 footer{
     width: 100%;
@@ -96,4 +99,35 @@ article{
     grid-template-columns: 1fr 1fr  1fr;
     grid-template-areas:   
     "titre article image";
+}
+
+#rhcp{
+
+    text-align:center;
+    
+    width: 400px;
+    border: outset;
+    border-color: #d03c3c ;
+    border-width:8px;
+    text-align: center;
+    
+    
+}
+
+#rhcp2{
+
+    text-align:center;
+    
+    width: 400px;
+    border: outset;
+    border-color: #d03c3c ;
+    border-width:8px;
+    text-align: center;
+    
+    
+}
+
+body img{
+    margin-left: 23%;
+
 }
