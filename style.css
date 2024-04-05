@@ -1,0 +1,18 @@
+.header-bar{
+    display:grid;
+    grid-template-columns: 2fr 1fr;    
+    grid-template-areas:
+    "titre autre image"
+    ;   
+}
+
+
+footer{
+    width: 100%;
+	margin: auto; 
+	background-color: black;
+    text-align: center;
+    box-shadow:
+    inset 5em 5em 5em black,
+    0 0 5em black;
+}
