@@ -1,20 +1,25 @@
 .header-bar{
     display:grid;
-    grid-template-columns: 2fr 1fr;    
+    grid-template-columns: 1fr 1fr;    
     grid-template-areas:
-    "titre autre image"
+    "titre autre"
     ;   
 }
 
 p{
     color:white;
+    font-size: 30px;
+
 }
 
 h1{
     color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 60px;
 }
 h2{
     color: white;
+    font-size: 60px;
 }
 
 footer{
@@ -29,7 +34,7 @@ footer{
 #foot{
     color: white;
     margin: 0%;
-    margin-top: 85%;
+    margin-top: 60%;
 }
 
 #navigation{
@@ -75,7 +80,15 @@ article{
     "art3"
     ;
 }
+#art h2{
+    text-align: center;
+    margin-top: 30%;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
 
+    
+
+}
 #art1{
     
     display:grid;
@@ -101,33 +114,18 @@ article{
     "titre article image";
 }
 
-#rhcp{
-
-    text-align:center;
-    
-    width: 400px;
-    border: outset;
-    border-color: #d03c3c ;
-    border-width:8px;
-    text-align: center;
-    
-    
-}
-
-#rhcp2{
-
-    text-align:center;
-    
-    width: 400px;
-    border: outset;
-    border-color: #d03c3c ;
-    border-width:8px;
-    text-align: center;
-    
-    
-}
-
 body img{
     margin-left: 23%;
-
+    margin-top: 10%;
+    width: 400px;
+    border: outset;
+    border-color: #d03c3c ;
+    border-width:8px;
+    text-align: center;
+}
+#logo{
+    margin-top: 2%;
+    margin-left: 80%;
+    width: 10%;
+    border-width:0px;
 }
