@@ -5,7 +5,12 @@
     "titre autre"
     ;   
 }
-
+main{
+    
+    width: auto;
+    margin: auto; 
+    border-color: #e5e5e5;
+    }
 p{
     color:white;
     font-size: 30px;
